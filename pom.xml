@@ -30,6 +30,7 @@
   <properties>
     <revision>0.0.1-SNAPSHOT</revision>
     <scm.repo.detail>org.eclipse.daanse.cwm</scm.repo.detail>
+    <jdbc-db.version>0.0.1-SNAPSHOT</jdbc-db.version>
   </properties>
 
   <repositories>
@@ -49,8 +50,13 @@
   <modules>
     <module>model</module>
     <module>util</module>
-    <!--    <module>instance</module>-->
-    <!--    <module>documentation</module>-->
+    <!--
+    <module>sql.gen</module>
+    <module>jdbc.load</module>
+    <module>query.resolve</module>
+    <module>maven</module>
+    -->
+
   </modules>
 
   <dependencies>
